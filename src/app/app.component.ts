@@ -23,3 +23,5 @@ import { GreenComponent } from './color-components/green/green.component';
 export class AppComponent {
   title = 'standalone-vs-normal';
 }
+
+// ng update @angular/core@18 @angular/cli@18
