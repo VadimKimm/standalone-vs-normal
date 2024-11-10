@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './modules/home/home.component';
-import { AdminComponent } from './modules/admin/admin.component';
-import { UserComponent } from './modules/user/user.component';
+import { HomeComponent } from './components/home/home.component';
+import { UserComponent } from './components/user/user.component';
+import { AdminComponent } from './components/admin/admin.component';
 
 export const routes: Routes = [
   {
@@ -15,6 +15,6 @@ export const routes: Routes = [
   },
   {
     path: "admin", component: AdminComponent
-    // path: "admin", loadComponent: () => import('./modules/admin/admin.component').then(m => m.AdminComponent)
+    // path: "admin", loadComponent: () => import('./components/admin/admin.component').then(m => m.AdminComponent)
   }
 ];
