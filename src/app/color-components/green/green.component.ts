@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { RedComponent } from '../red/red.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-green',
   standalone: true,
-  imports: [RedComponent],
+  imports: [CommonModule],
   templateUrl: './green.component.html',
   styleUrl: './green.component.css'
 })

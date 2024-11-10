@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { FirstModule } from '../../modules/first/first.module';
 
 @Component({
   selector: 'app-red',
   standalone: true,
-  imports: [FirstModule],
+  imports: [],
   templateUrl: './red.component.html',
   styleUrl: './red.component.css'
 })

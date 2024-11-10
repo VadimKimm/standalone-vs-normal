@@ -13,9 +13,7 @@ import { GreenComponent } from './color-components/green/green.component';
     RouterLink, 
 
     FirstModule, 
-    SecondModule,
-
-    GreenComponent
+    SecondModule
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
