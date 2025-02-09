@@ -2,8 +2,6 @@ import { Component } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
 
 import { FirstModule } from "./modules/first/first.module";
-import { SecondModule } from './modules/second/second.module';
-import { GreenComponent } from './color-components/green/green.component';
 
 @Component({
   selector: 'app-root',
@@ -12,8 +10,7 @@ import { GreenComponent } from './color-components/green/green.component';
     RouterOutlet, 
     RouterLink, 
 
-    FirstModule, 
-    SecondModule
+    FirstModule
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
@@ -21,5 +18,3 @@ import { GreenComponent } from './color-components/green/green.component';
 export class AppComponent {
   title = 'standalone-vs-normal';
 }
-
-// ng update @angular/core@18 @angular/cli@18

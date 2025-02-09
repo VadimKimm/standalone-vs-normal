@@ -4,8 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-red',
   standalone: true,
   imports: [],
-  templateUrl: './red.component.html',
-  styleUrl: './red.component.css'
+  template: `<p>red works!</p>`
 })
 export class RedComponent {
 

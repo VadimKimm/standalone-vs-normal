@@ -2,8 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-first',
-  templateUrl: './first.component.html',
-  styleUrl: './first.component.css'
+  template: `<p>first works!</p>`
 })
 export class FirstComponent {
 
